@@ -7,11 +7,11 @@ ChatGPT directly integrated into Google Docs 📑
 
 
 ### Table of Contents
-**[Setup](#setup)**<br>
+**[Notes](#Notes)**<br>
 **[Usage](#usage)**<br>
 **[Installation (Devs only)](#installation)**<br>
 
-## Setup
+## Notes
 
 You can choose to either do everything locally, or just use a premade template document I have, and make a copy of that.
 
