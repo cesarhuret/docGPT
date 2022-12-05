@@ -13,6 +13,8 @@ ChatGPT directly integrated into Google Docs 📑
 
 ## Notes
 
+This is still in development. There may be times when it doesn't work, because of OpenAI's overloads. I made this at 4 am, so I might not have the best error handlings, but I'll be fixing all that within the next few days.
+
 You can choose to either do everything locally, or just use a premade template document I have, and make a copy of that.
 
 **Skip to the **[USAGE](#usage)** section if you are using the PREMADE TEMPLATE.**
