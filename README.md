@@ -8,8 +8,8 @@ ChatGPT directly integrated into Google Docs 📑
 
 ### Table of Contents
 **[Setup](#setup)**<br>
-**[Installation](#installation)**<br>
 **[Usage](#usage)**<br>
+**[Installation (Devs only)](#installation)**<br>
 
 ## Setup
 
@@ -19,7 +19,42 @@ You can choose to either do everything locally, or just use a premade template d
 
 Template document with ChatGPT integrated: https://docs.google.com/document/d/1N7qvw5mZdVe2u2IQ5pnVDmUjHsLEfq9_Z0Tf8PHloZA/edit?usp=sharing
 
+## Usage (Google Docs)
+
+1. Get the template: https://docs.google.com/document/d/1N7qvw5mZdVe2u2IQ5pnVDmUjHsLEfq9_Z0Tf8PHloZA/edit?usp=sharing
+
+2. Make a copy of the document
+
+  ![alt text](https://i.imgur.com/YlWvBEzl.png)
+
+3. Type something in your Google Doc
+
+  ![alt text](https://i.imgur.com/287n0U0l.png)
+  
+4. Select your question, or whatever text you want to send to ChatGPT
+  
+  ![alt text](https://i.imgur.com/62tfu0kl.png)
+
+5. Use the extension! 
+
+  ![alt text](https://i.imgur.com/g7w6Qgfl.png)
+
+6. Accept the Authorization request & sign into google
+
+  ![alt text](https://i.imgur.com/LbmKDmpl.png)
+  
+7. Click Advanced, go to ChatGPT & allow the scopes required
+
+  ![alt text](https://i.imgur.com/D7gzZpal.png)
+
+
+8. Get your result!
+
+  ![alt text](https://i.imgur.com/MEidlLYl.png)
+
 ## Installation
+
+Follow this guide if you don't want to use my premade template, and want to start a ChatGPT REST API server of your own!
 
 1. Clone this repo with 
 
@@ -57,36 +92,3 @@ Template document with ChatGPT integrated: https://docs.google.com/document/d/1N
   - Save the script
   - Go back to the Google Doc and refresh the page
   - Click on Extension - `ChatGPT` should be visible under Apps Script
-
-## Usage
-
-1. Get the template: https://docs.google.com/document/d/1N7qvw5mZdVe2u2IQ5pnVDmUjHsLEfq9_Z0Tf8PHloZA/edit?usp=sharing
-
-2. Make a copy of the document
-
-  ![alt text](https://i.imgur.com/YlWvBEzl.png)
-
-3. Type something in your Google Doc
-
-  ![alt text](https://i.imgur.com/287n0U0l.png)
-  
-4. Select your question, or whatever text you want to send to ChatGPT
-  
-  ![alt text](https://i.imgur.com/62tfu0kl.png)
-
-5. Use the extension! 
-
-  ![alt text](https://i.imgur.com/g7w6Qgfl.png)
-
-6. Accept the Authorization request & sign into google
-
-  ![alt text](https://i.imgur.com/LbmKDmpl.png)
-  
-7. Click Advanced, go to ChatGPT & allow the scopes required
-
-  ![alt text](https://i.imgur.com/D7gzZpal.png)
-
-
-8. Get your result!
-
-  ![alt text](https://i.imgur.com/MEidlLYl.png)
