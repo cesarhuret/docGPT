@@ -1,0 +1,4 @@
+flask
+revChatGPT
+waitress
+python-dotenv
