@@ -2,7 +2,7 @@
 docGPT 📄
 </h1>
 <p align="center">
-ChatGPT directly integrated into Google Docs 🤌
+ChatGPT directly integrated into Google Docs 📑
 </p>
 
 
