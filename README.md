@@ -52,7 +52,7 @@ Template document with ChatGPT integrated: https://docs.google.com/document/d/1N
 
   ![alt text](https://i.imgur.com/MEidlLYl.png)
 
-## Installation
+## Installation (Devs only)
 
 Follow this guide if you don't want to use my premade template, and want to start a ChatGPT REST API server of your own!
 
