@@ -19,6 +19,8 @@ You can choose to either do everything locally, or just use a premade template d
 
 Template document with ChatGPT integrated: https://docs.google.com/document/d/1N7qvw5mZdVe2u2IQ5pnVDmUjHsLEfq9_Z0Tf8PHloZA/edit?usp=sharing
 
+Note that this project is unofficial, and an unofficial ChatGPT api (revChatGPT) is being used for this. Will be updated when OpenAI releases ChatGPT as a full API.
+
 ## Usage (Google Docs)
 
 1. Get the template: https://docs.google.com/document/d/1N7qvw5mZdVe2u2IQ5pnVDmUjHsLEfq9_Z0Tf8PHloZA/edit?usp=sharing
