@@ -66,20 +66,27 @@ Template document with ChatGPT integrated: https://docs.google.com/document/d/1N
 
   ![alt text](https://i.imgur.com/YlWvBEzl.png)
 
-1. Type something in your Google Doc
+3. Type something in your Google Doc
 
   ![alt text](https://i.imgur.com/287n0U0l.png)
   
-2. Select your question, or whatever text you want to send to ChatGPT
+4. Select your question, or whatever text you want to send to ChatGPT
   
   ![alt text](https://i.imgur.com/62tfu0kl.png)
 
-3. Use the extension! 
+5. Use the extension! 
 
   ![alt text](https://i.imgur.com/g7w6Qgfl.png)
 
-4. Accept the Authorization request & sign into google
+6. Accept the Authorization request & sign into google
 
-5. Get your result!
+  ![alt text](https://i.imgur.com/LbmKDmpl.png)
+  
+7. Click Advanced, go to ChatGPT & allow the scopes required
+
+  ![alt text](https://i.imgur.com/D7gzZpal.png)
+
+
+8. Get your result!
 
   ![alt text](https://i.imgur.com/MEidlLYl.png)
