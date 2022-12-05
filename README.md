@@ -43,13 +43,13 @@ Template document with ChatGPT integrated: https://docs.google.com/document/d/1N
 5. Enter your server URL into the Google Docs add-on script. 
 
 6. Google Docs
-  ⋅⋅- Go to Google Docs and create a new document.
-  ⋅⋅- Click on Extension > Apps Script
-  ⋅⋅- Copy the contents of `add-on/ask.js` into the script editor
-  ⋅⋅- Replace the `SERVER_URL` variable with your server URL
-  ⋅⋅- Save the script
-  ⋅⋅- Go back to the Google Doc and refresh the page
-  ⋅⋅- Click on Extension - `ChatGPT` should be visible under Apps Script
+  - Go to Google Docs and create a new document.
+  - Click on Extension > Apps Script
+  - Copy the contents of `add-on/ask.js` into the script editor
+  - Replace the `SERVER_URL` variable with your server URL
+  - Save the script
+  - Go back to the Google Doc and refresh the page
+  - Click on Extension - `ChatGPT` should be visible under Apps Script
 
 ## Usage
 
