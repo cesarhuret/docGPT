@@ -367,7 +367,7 @@ class OpenAIAuth:
         :param access_token:
         :return:
         """
-        with open("Classes/auth.json", "w") as f:
+        with open("./PyChatGPT/Classes/auth.json", "w") as f:
             f.write(json.dumps({"access_token": access_token, "expires_at": time.time() + 3600}))
         print(f"{Fore.GREEN}[OpenAI][8] {Fore.WHITE}Saved access token")
 
