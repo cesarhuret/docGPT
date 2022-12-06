@@ -17,8 +17,12 @@ app = Flask(__name__)
 
 gptBot = PyChatGPT.PyChatGPT()
 
-@app.route("/chat", methods=["POST"])
+@app.route("/", methods=["GET"])
 def index():
+  return 'ok'
+
+@app.route("/chat", methods=["POST"])
+def chat():
   message = flask.request.json.get("message")
   response = gptBot.conversate(message)
   return response
