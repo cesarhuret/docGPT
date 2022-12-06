@@ -106,7 +106,7 @@ class OpenAIAuth:
                     "http": self.proxy,
                     "https": self.proxy
                 }
-                self.session.proxies(proxies)
+                self.session.proxies = proxies
 
         print(f"{Fore.GREEN}[OpenAI] {Fore.WHITE}Beginning auth process")
         # First, make a request to https://chat.openai.com/auth/login
@@ -367,7 +367,7 @@ class OpenAIAuth:
         :param access_token:
         :return:
         """
-        with open("./PyChatGPT/Classes/auth.json", "w") as f:
+        with open("Classes/auth.json", "w") as f:
             f.write(json.dumps({"access_token": access_token, "expires_at": time.time() + 3600}))
         print(f"{Fore.GREEN}[OpenAI][8] {Fore.WHITE}Saved access token")
 
