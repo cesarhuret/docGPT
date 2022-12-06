@@ -24,7 +24,12 @@ Template document with ChatGPT integrated: https://docs.google.com/document/d/1N
 
 This project is unofficial, and an unofficial ChatGPT api (revChatGPT) is being used for this. Will be updated when OpenAI releases ChatGPT as a full API.
 
-## Usage (Google Docs)
+## Usage
+
+- **Google Docs**<br>
+- **MS Word**<br>
+
+### Google Docs
 
 1. Get the template: https://docs.google.com/document/d/1N7qvw5mZdVe2u2IQ5pnVDmUjHsLEfq9_Z0Tf8PHloZA/edit?usp=sharing
 
@@ -56,6 +61,34 @@ This project is unofficial, and an unofficial ChatGPT api (revChatGPT) is being 
 8. Get your result!
 
   ![alt text](https://i.imgur.com/MEidlLYl.png)
+  
+### MS Word
+
+1. Open a new word document
+
+2. Enable the Developer Tab on Word
+
+3. Click Macros
+  ![alt text](https://i.imgur.com/946Lupxl.png)
+
+4. Create a new macro with the name AddToShortcut
+  ![alt text](https://i.imgur.com/1DSMx78l.png)
+  
+5. Copy the code in `wordGPT/ask.bas` of this repo, and paste it into the Word VBA Editor
+
+6. Click `Tools > References` in the navbar <br>
+  ![alt text](https://i.imgur.com/eiWU4Ecl.png)
+
+7. Search for Microsoft Scripting Runtime and enable it <br>
+  ![image](https://user-images.githubusercontent.com/67405604/205881130-c82f1ace-2c06-462e-a196-e7188077e9c5.png)
+
+8. Click OK and Save the file containing the code you pasted.
+
+9. Right click selected text in Word and click `Ask ChatGPT`
+
+![image](https://user-images.githubusercontent.com/67405604/205882403-1fee052b-1a40-45e0-838b-f0c9268611ed.png)
+
+10. Wait for your result! (Word may become temporarily unresponsive while waiting for the result)
 
 ## API 
 
