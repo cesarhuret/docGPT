@@ -9,7 +9,8 @@ ChatGPT directly integrated into Google Docs 📑
 ### Table of Contents
 **[Notes](#Notes)**<br>
 **[Usage](#usage)**<br>
-**[Installation (Devs only)](#installation)**<br>
+**[Run your own ChatGPT API (Devs only)](#API)**<br>
+**[Credits](#credits)**<br>
 
 ## Notes
 
@@ -56,9 +57,11 @@ This project is unofficial, and an unofficial ChatGPT api (revChatGPT) is being 
 
   ![alt text](https://i.imgur.com/MEidlLYl.png)
 
-## Installation (Devs only)
+## API 
 
 Follow this guide if you don't want to use my premade template, and want to start a ChatGPT REST API server of your own!
+
+### Without Docker
 
 1. Clone this repo with 
 
@@ -67,11 +70,8 @@ Follow this guide if you don't want to use my premade template, and want to star
   ```
 
 2. Visit https://chat.openai.com/chat and log in or sign up
-  - Open console with `F12`
-  - Open `Application` tab > Cookies
-  ![image](https://user-images.githubusercontent.com/36258159/205494773-32ef651a-994d-435a-9f76-a26699935dac.png)
-  - Copy the value for `__Secure-next-auth.session-token` and paste it into `.env.example` under `session_token`.
   - Rename `.env.example` to `.env`
+  - Get your OpenAI email and password, and insert them into the `.env` file. 
 
 3. Set up and host the web server: 
 
@@ -81,8 +81,31 @@ Follow this guide if you don't want to use my premade template, and want to star
   pip install -r requirements.txt
 
   ## Run the server
-  python3 server.py
+  waitress-serve --port=8080 --call server:application
   ```
+
+### Docker Installation
+
+1. Make sure you have docker installed and running
+
+2. Build your docker image
+
+```
+cd server
+
+#Build the image
+docker build -t chatgpt-api
+
+```
+
+3. Run your docker image
+
+```
+docker run -p 8080:8080 -e email=YOUR_EMAIL_GOES_HERE -e password=YOUR_PASSWORD_GOES_HERE chatgpt-api
+
+```
+
+### In Google Docs
 
 4. Get the URL of the server. Ex: http://localhost:8080/chat
 
@@ -96,3 +119,7 @@ Follow this guide if you don't want to use my premade template, and want to star
   - Save the script
   - Go back to the Google Doc and refresh the page
   - Click on Extension - `ChatGPT` should be visible under Apps Script
+  
+## Credits
+
+- https://github.com/rawandahmad698/PyChatGPT :pray:
