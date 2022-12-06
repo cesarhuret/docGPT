@@ -5,6 +5,7 @@ docGPT 📄
 ChatGPT directly integrated into Google Docs 📑
 </p>
 
+_If you want me to maintain this repo, please star ⭐️_
 
 ### Table of Contents
 **[Notes](#Notes)**<br>
