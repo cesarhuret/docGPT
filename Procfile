@@ -1,0 +1,1 @@
+web: cd server && waitress-serve --port=8080 --call server:application
