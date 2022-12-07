@@ -148,6 +148,12 @@ docker run -p 8080:8080 -e email=YOUR_EMAIL_GOES_HERE -e password=YOUR_PASSWORD_
   'message': 'Your questions go here'
 }
 ```
+- returns a string: 
+
+```
+"here's the response to your question"
+```
+
 
 ### In Google Docs
 
