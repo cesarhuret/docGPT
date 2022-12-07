@@ -1,1 +1,1 @@
-web: waitress-serve --port=8080 --call server:application
+web: waitress-serve --port=8080 --call 'server:application'
