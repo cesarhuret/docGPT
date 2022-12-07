@@ -141,7 +141,7 @@ docker run -p 8080:8080 -e email=YOUR_EMAIL_GOES_HERE -e password=YOUR_PASSWORD_
 
 ### Using the REST API
 
-- Send a POST request to https://docgpt.kesarx.repl.co with an application/json body:
+- Send a POST request to `https://docgpt.kesarx.repl.co/chat` with an application/json body:
 
 ```
 {
