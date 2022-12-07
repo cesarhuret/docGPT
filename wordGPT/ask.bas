@@ -1,9 +1,5 @@
 Option Explicit
 
-Sub AutoExec()
-    Set X.App = Application
-End Sub
-
 Sub AddToShortcut()
     Dim Bar As CommandBar
     Dim NewControl As CommandBarButton
