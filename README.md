@@ -115,7 +115,7 @@ Follow this guide if you don't want to use my premade template, and want to star
   pip install -r requirements.txt
 
   ## Run the server
-  waitress-serve --port=8080 --call server:application
+  python server.py
   ```
 
 ### Docker Installation

@@ -27,9 +27,16 @@ def chat():
   response = gptBot.conversate(message)
   return response
 
-def application():
+# retrieve port
+def get_port():
+  return int(os.environ.get("PORT", 8080))
+
+
+if __name__ == "__main__":
   success = gptBot.initialise()
+  from waitress import serve
   if(success):
-    return app
+    print("Server started at http://0.0.0.0:" + str(get_port()))
+    serve(app, host="0.0.0.0", port=get_port())
   else:
     exit(1)
