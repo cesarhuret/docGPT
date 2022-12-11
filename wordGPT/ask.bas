@@ -1,5 +1,14 @@
 Option Explicit
 
+Sub DeleteShortcut()
+    Dim DeleteControl As CommandBarControl
+    For Each DeleteControl In Application.CommandBars("Text").Controls
+       If DeleteControl.Caption = "Ask ChatGPT" Then
+          DeleteControl.Delete
+       End If
+    Next DeleteControl
+End Sub
+
 Sub AddToShortcut()
     Dim Bar As CommandBar
     Dim NewControl As CommandBarButton
