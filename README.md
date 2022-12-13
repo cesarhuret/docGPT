@@ -5,7 +5,7 @@ docGPT 📄
 ChatGPT directly integrated into Google Docs 📑
 </p>
 
-*OpenAI just added a new security challenge. the extension will not work for a while*
+<h1>**OpenAI just added a new security challenge. the extension will not work for a while**</h1>
 
 ### Table of Contents
 **[Notes](#Notes)**<br>
