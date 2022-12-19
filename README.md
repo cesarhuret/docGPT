@@ -5,25 +5,18 @@ docGPT 📄
 ChatGPT directly integrated into Google Docs 📑
 </p>
 
-<h1>We're making updates! Should be back live soon :))</h1>
+<h1>This project is now discontinued.</h1>
+Thank you to the wonderful devs who are building ChatGPT APIs!
+
+Feel free to rebuild this project with these APIs!
+ - https://github.com/transitive-bullshit/chatgpt-api
+ - https://github.com/rawandahmad698/PyChatGPT
 
 ### Table of Contents
 **[Notes](#Notes)**<br>
 **[Usage](#usage)**<br>
 **[Run your own ChatGPT API (Devs only)](#API)**<br>
 **[Credits](#credits)**<br>
-
-## Notes
-
-This is still in development. There may be times when it doesn't work, because of OpenAI's overloads. I made this at 4 am, so I might not have the best error handlings, but I'll be fixing all that within the next few days.
-
-You can choose to either do everything locally, or just use a premade template document I have, and make a copy of that.
-
-**Skip to the **[USAGE](#usage)** section if you are using the PREMADE TEMPLATE.**
-
-Template document with ChatGPT integrated: https://docs.google.com/document/d/1N7qvw5mZdVe2u2IQ5pnVDmUjHsLEfq9_Z0Tf8PHloZA/edit?usp=sharing
-
-This project is unofficial, and an unofficial ChatGPT api (revChatGPT) is being used for this. Will be updated when OpenAI releases ChatGPT as a full API.
 
 ## Usage
 
