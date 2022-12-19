@@ -5,8 +5,8 @@ docGPT 📄
 ChatGPT directly integrated into Google Docs 📑
 </p>
 
-<h1>This project is now discontinued. Please Contribute! :pray:</h1>
-Feel free to make any pull requests to update this project.
+<h2>This project is now discontinued. Please Contribute (Read Below)! :pray:</h2>
+<b>Feel free to make any pull requests to update this project. I will review them and then approve them.</b>
 
 Thank you to the wonderful devs who are building ChatGPT APIs!
 
