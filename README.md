@@ -1,24 +1,15 @@
 <h1 align="center">
 docGPT 📄
 </h1>
-<p align="center">
+<h2 align="center">
 ChatGPT directly integrated into Google Docs 📑
-</p>
+</h2>
 
-<h2>This project is now discontinued. Please Contribute (Read Below)! :pray:</h2>
+
 <b>Feel free to make any pull requests to update this project. I will review and then approve them.</b>
 
 Thank you to the wonderful devs who are building ChatGPT APIs!
 
-Feel free to rebuild this project with these APIs!
- - https://github.com/transitive-bullshit/chatgpt-api
- - https://github.com/rawandahmad698/PyChatGPT
-
-### Table of Contents
-**[Notes](#Notes)**<br>
-**[Usage](#usage)**<br>
-**[Run your own ChatGPT API (Devs only)](#API)**<br>
-**[Credits](#credits)**<br>
 
 ## Usage
 
@@ -86,85 +77,3 @@ Feel free to rebuild this project with these APIs!
 
 10. Wait for your result! (Word may become temporarily unresponsive while waiting for the result)
 
-## API 
-
-Follow this guide if you don't want to use my premade template, and want to start a ChatGPT REST API server of your own!
-
-### Without Docker
-
-1. Clone this repo with 
-
-  ```
-  git clone https://github.com/cesarhuret/docGPT.git
-  ```
-
-2. Visit https://chat.openai.com/chat and log in or sign up
-  - Rename `.env.example` to `.env`
-  - Get your OpenAI email and password, and insert them into the `.env` file. 
-
-3. Set up and host the web server: 
-
-  ```
-  cd server
-  ## Install Requirements
-  pip install -r requirements.txt
-
-  ## Run the server
-  python server.py
-  ```
-
-### Docker Installation
-
-1. Make sure you have docker installed and running
-
-2. Build your docker image
-
-```
-cd server
-
-#Build the image
-docker build -t chatgpt-api
-
-```
-
-3. Run your docker image
-
-```
-docker run -p 8080:8080 -e email=YOUR_EMAIL_GOES_HERE -e password=YOUR_PASSWORD_GOES_HERE chatgpt-api
-
-```
-
-### Using the REST API
-
-- Send a POST request to `https://docgpt.kesarx.repl.co/chat` with an application/json body:
-
-```
-{
-  'message': 'Your questions go here'
-}
-```
-- returns a string: 
-
-```
-"here's the response to your question"
-```
-
-
-### In Google Docs
-
-4. Get the URL of the server. Ex: http://localhost:8080/chat
-
-5. Enter your server URL into the Google Docs add-on script. 
-
-6. Google Docs
-  - Go to Google Docs and create a new document.
-  - Click on Extension > Apps Script
-  - Copy the contents of `add-on/ask.js` into the script editor
-  - Replace the `SERVER_URL` variable with your server URL
-  - Save the script
-  - Go back to the Google Doc and refresh the page
-  - Click on Extension - `ChatGPT` should be visible under Apps Script
-  
-## Credits
-
-- https://github.com/rawandahmad698/PyChatGPT :pray:
