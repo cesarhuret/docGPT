@@ -32,7 +32,7 @@ Thank you to the wonderful devs who are building ChatGPT APIs!
   
   ![alt text](https://i.imgur.com/62tfu0kl.png)
 
-5. Use the extension! 
+5. Use the extension! (click Start instead of Ask to access the chat pop-up)
 
   ![alt text](https://i.imgur.com/g7w6Qgfl.png)
 
