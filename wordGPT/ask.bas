@@ -50,7 +50,16 @@ Private Sub Ask()
     
     req.WaitForResponse
     
-    selection.Range.InsertAfter Chr(10) & req.ResponseText & Chr(10)
+    Dim objHTML, objWin As Object
+    Set objHTML = CreateObject("HTMLFile")
+    Set objWin = objHTML.parentWindow
+    objWin.execScript "var data = " & req.ResponseText & ";", "JScript"
+    objWin.execScript "var response_msg = data.choices[0].message.content;", "JScript"
+
+    Dim result As String
+    result = objWin.response_msg
+    
+    selection.Range.InsertAfter Chr(10) & result & Chr(10)
     
 End Sub
 
