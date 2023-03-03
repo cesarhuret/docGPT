@@ -6,9 +6,11 @@ ChatGPT directly integrated into Google Docs 📑
 </h2>
 
 
-<b>Feel free to make any pull requests to update this project. I will review and then approve them.</b>
-
-Thank you to the wonderful devs who are building ChatGPT APIs!
+## Features 
+- <b>Faster than [chat.openai.com](https://chat.openai.com)</b>
+- <b>Free</b>
+- <b>Live Chat Within Google Docs</b>
+- <b>Text Completion</b>
 
 
 ## Usage
