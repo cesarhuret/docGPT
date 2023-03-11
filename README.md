@@ -77,5 +77,5 @@ ChatGPT directly integrated into Google Docs 📑
 
 ![image](https://user-images.githubusercontent.com/67405604/205882403-1fee052b-1a40-45e0-838b-f0c9268611ed.png)
 
-10. Wait for your result! (Word may become temporarily unresponsive while waiting for the result)
+1.  Wait for your result! (Currently it is not recommended to ask ChatGPT again before current question is answered, otherwise all the answers can be mixed up. Keyboard input is disabled while waiting for the result, see issue #9.)
 

@@ -27,26 +27,17 @@ Private Sub Ask()
     Dim selection As selection
     Set selection = Application.selection
     Dim selectedText As String
-    Dim rng As Word.Range
-    
+    Dim init_end, new_end As Integer
+
     selectedText = Replace(selection.text, ChrW$(13), "")
-    
+    init_end = CInt(selection.End)
+
     Dim req As Object
     Set req = CreateObject("WinHttp.WinHttpRequest.5.1")
 
-    req.Open "POST", "https://chatgpt-api.kesarx.repl.co/chat", False
+    req.Open "POST", "https://chatgpt-api.kesarx.repl.co/chat", True
     req.SetRequestHeader "Content-Type", "application/json"
-    
-    Dim f
-    Dim json As String
-    
-    Dim text As String
-    
-    text = selectedText
-
-    json = "{""message"": """ & text & """}"
-    
-    req.Send json
+    req.Send "{""message"": """ & selectedText & """}"
     
     req.WaitForResponse
     
@@ -58,7 +49,9 @@ Private Sub Ask()
 
     Dim result As String
     result = objWin.response_msg
-    
+
+    new_end = CInt(selection.End)
+    selection.Move Unit:=wdCharacter, Count:=init_end - new_end
     selection.Range.InsertAfter Chr(10) & result & Chr(10)
     
 End Sub
