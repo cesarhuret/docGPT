@@ -226,7 +226,7 @@ function insertText(newText) {
     const surroundingText = cursor.getSurroundingText().getText();
     const surroundingTextOffset = cursor.getSurroundingTextOffset();
 
-    // If the cursor follows or preceds a non-space character, insert a space
+    // If the cursor follows or precedes a non-space character, insert a space
     // between the character and the translation. Otherwise, just insert the
     // translation.
     if (surroundingTextOffset > 0) {
